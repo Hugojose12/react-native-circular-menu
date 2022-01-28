@@ -42,7 +42,6 @@ export default class ActionButton extends Component {
     this.state = {
       active: props.active,
       anim: new Animated.Value(props.active ? 1 : 0),
-      hola: false
     };
 
     this.timeout = null;
@@ -109,13 +108,11 @@ export default class ActionButton extends Component {
           activeOpacity={0.85}
           onLongPress={this.props.onLongPress}
           onPress={() => {
-              this.props.onPress();
-              if (this.props.children) {
-                this.animateButton();
-                this.setState({hola: !this.state.hola})
-                console.warn("holaaaaa")
-              }
-            }}
+            this.props.onPress();
+            if (this.props.children) {
+              this.animateButton();
+            }
+          }}
         >
           <Animated.View
             style={
