@@ -1,0 +1,34 @@
+{
+  "name": "react-native-circular-menu",
+  "version": "0.0.1",
+  "description": "customizable circular action menu component for react-native",
+  "main": "ActionButton.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hugojose12/react-native-circular-menu.git"
+  },
+  "keywords": [
+    "react-native",
+    "action-button",
+    "float-button",
+    "multi-action-button",
+    "circular-menu",
+    "arc-menu",
+    "satellite-menu"
+  ],
+  "peerDependencies": {
+    "react-native": ">=0.11"
+  },
+  "author": "Hugo Rivero",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hugojose12/react-native-circular-menu/issues"
+  },
+  "homepage": "https://github.com/Hugojose12/react-native-circular-menu",
+  "dependencies": {
+    "prop-types": "^15.6.1"
+  }
+}
